@@ -546,7 +546,7 @@ export default function BrowseStickers() {
         <Grid.EmptyView
           icon={{ source: Icon.Image, tintColor: Color.Purple }}
           title="No Stickers Yet"
-          description={`Your sticker vault is empty!\nUse the "Add Sticker" command to import your first sticker from clipboard, URL, or file.`}
+          description={`Your sticker vault is empty...!`}
         />
       ) : showSections ? (
         <>
